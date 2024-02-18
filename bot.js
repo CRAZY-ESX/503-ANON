@@ -46,6 +46,6 @@ bot.onText(/\/attack (.+)/, (msg, match) => {
     // Start countdown timer
     bot.sendMessage(chatId, 'Countdown: 30 seconds');
     setTimeout(() => {
-        bot.sendMessage(chatId, 'YOU CAN NOW ATTACK ANOTHER SITE {BOT OWNER MD OMOR FARUK}');
+        bot.sendMessage(chatId, 'YOU CAN NOW ATTACK ANOTHER SITE {BOT OWNER @THEANON69 }');
     }, 30000);
 });
